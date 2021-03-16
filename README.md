@@ -2,4 +2,4 @@
 javascript ex
 
 
-repositori dove pusherò tutti i miei esercizi
+primo capitolo esercizi sul primo capitolo 
