@@ -11,3 +11,12 @@
 for (let line = '#'; line.length < 10; line = line + '#'){
     console.log(line);
 }
+
+// risolto con una funzione
+function myFunc(figura, numero){
+    for (let line = figura; line.length < numero; line = line + '#'){
+        console.log(line);
+    }
+}
+
+myFunc('#', 5);
