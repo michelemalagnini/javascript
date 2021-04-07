@@ -12,7 +12,6 @@ function range(start,end){
     }
     let arr = [];
     for(let i = start; i <= end; i +=  intervall){
-      
       arr.push(i);
     }
     return arr
@@ -26,12 +25,18 @@ function range(start,end){
   
   function sum(arr){
     let totale = 0;
-    for(let i = arr[0]; i <= arr.length; i++){
-      totale += i;
-      console.log(totale);
+    for(let i = 0; i < arr.length; i++){
+        totale +=  arr[i];
     }
     return totale
   }
+
+// function sum(array) {
+//     var total = 0;
+//     for (var i = 0; i < array.length; i++)
+//       total += array[i];
+//     return total;
+// }
   
   console.log('somma degli elementi dell array: ' + sum(arrNormale))
   console.log('somma degli elementi dell arrayIntervall: ' + sum(arrIntervall))
